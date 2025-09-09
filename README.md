@@ -1,11 +1,14 @@
 1.What is the difference between var, let, and const?
 Ans:var → function-scoped, hoisted হয়ে undefined হয়, একই scope-এ বারবার declare করা যায়।
-let → block-scoped, hoisted হলেও initialize হয় না , re-declare করা যায় না, তবে reassign করা যায়। 
-const → block-scoped, hoisted হলেও initialize হয় না , re-declare বা reassign কোনোটাই করা যায় না।
 
-2.What is the difference between map(), forEach(), and filter()? Ans:forEach() → শুধু loop চালায় এবং প্রত্যেক element-এর জন্য callback execute করে। কিছু return করে না। 
-map() → প্রত্যেক element-এর জন্য callback চালায় এবং তার return value গুলো নিয়ে একটা নতুন array return করে। 
-filter() → প্রত্যেক element check করে এবং যেগুলা callback condition true হয়, শুধু সেই element গুলো নিয়ে একটা নতুন array return করে।
+let → block-scoped, hoisted হলেও initialize হয় না, re-declare করা যায় না, reassign করা যায়।
+
+const → block-scoped, hoisted হলেও initialize হয় না, re-declare বা reassign করা যায় না।
+2.What is the difference between map(), forEach(), and filter()? Ans:forEach() → শুধু loop চালায় এবং প্রত্যেক element-এর জন্য callback execute করে। কিছু return করে না।
+
+map() → প্রত্যেক element-এর জন্য callback চালায় এবং তার return value গুলো নিয়ে একটি নতুন array return করে।
+
+filter() → প্রত্যেক element check করে এবং যেগুলো callback condition true হয়, শুধু সেই element গুলো নিয়ে একটি নতুন array return করে।
 
 3.What are arrow functions in ES6? 
 Ans:Arrow function হলো ES6 এ আসা নতুন ধরনের function syntax, যেটা ছোট এবং concise ভাবে function লেখার সুবিধা দেয়। 
