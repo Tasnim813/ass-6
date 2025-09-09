@@ -79,18 +79,7 @@ const handleDeletBookmark = (BookmarkId) => {
 
 
 // another section 
-const manageSpinner = (status) => {
-  if (status == true) {
-    document.getElementById("spinner").classList.remove("hidden")
-    document.getElementById("cart-container").classList.add("hidden")
-  }
-  else {
-    document.getElementById("cart-container").classList.remove("hidden")
-    document.getElementById("spinner").classList.add("hidden")
 
-  }
-
-}
 
 const catagoryLoad = () => {
   const url = "https://openapi.programming-hero.com/api/categories"
